@@ -1,0 +1,96 @@
+.chatWrapper {
+  background: #ffffff;
+  box-shadow: 1px 4px 8px rgba(16, 45, 150, 0.21);
+  border-radius: 22px;
+  min-width: 50vw;
+  min-height: 70vh;
+  max-width: 70vw;
+}
+
+.usersWrapper > *:hover {
+  background-color: #c1dce8;
+}
+
+.usersWrapper {
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.usersWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.usersWrapper {
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.userCard {
+  height: 6vh;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.9vh;
+}
+
+.chatBlock {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.chatBlock::-webkit-scrollbar {
+  display: none;
+}
+
+.messageWrapper {
+  padding: 1vh;
+}
+
+.messageWrapperY {
+  text-align: left;
+}
+.messageWrapperM {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  /* width: 100%; */
+  /* margin-left: 53%; */
+}
+
+.messageWrapper > * {
+  max-width: 45%;
+}
+
+.message {
+  text-align: left;
+  max-width: 45%;
+  padding: 0.3vh 1.2vh;
+  border-radius: 20px;
+  color: black;
+  font-weight: 450;
+  word-wrap: break-word;
+}
+
+.messageY {
+  background-color: #e9e9eb;
+}
+
+.arrowAccept {
+  font-size: 1.8vh;
+  position: relative;
+  right: 2.4vw;
+  top: 0.3vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  position: absolute;
+  bottom: 20px;
+}

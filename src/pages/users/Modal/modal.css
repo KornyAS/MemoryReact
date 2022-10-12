@@ -1,0 +1,32 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: white;
+  grid-template-colums: 1fr;
+  min-width: 35vw;
+  min-height: 60vh;
+}
+
+.active {
+  display: flex;
+}
+
+.closeModal {
+  position: fixed;
+  right: 33vw;
+  top: 22vh;
+  font-size: 1.4rem;
+  color: gray;
+}
